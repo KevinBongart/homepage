@@ -15,6 +15,7 @@ end
 
 configure :build do
   require 'middleman-smusher'
+  activate :directory_indexes
   activate :minify_javascript
   activate :relative_assets
   activate :smusher
