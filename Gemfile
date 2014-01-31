@@ -6,7 +6,6 @@ gem 'middleman-smusher', git: 'git://github.com/middleman/middleman-smusher.git'
 gem 'middleman-favicon-maker', git: 'git://github.com/follmann/middleman-favicon-maker.git'
 
 gem 'aws-sdk'
-gem 'coffee-filter' # Coffeescript filter for HAML
 gem 'compass'
 gem 'dotenv'
 gem 'haml'

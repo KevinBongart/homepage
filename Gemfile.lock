@@ -1,16 +1,16 @@
 GIT
   remote: git://github.com/follmann/middleman-favicon-maker.git
-  revision: 1ccd008716489c6e94455f75a8301930ea1de6af
+  revision: 206f6ae88d1e9d6e27b9f6adebeb840320b42780
   specs:
-    middleman-favicon-maker (3.4.1)
-      favicon_maker (~> 0.3)
+    middleman-favicon-maker (3.5.2)
+      favicon_maker (~> 1.1.1)
       middleman-core (>= 3.0.0)
 
 GIT
   remote: git://github.com/middleman/middleman-livereload.git
-  revision: e9c6fbb311e1c5cb1bbab4733a402ff8b7c337b7
+  revision: eac73ef897036ebbf71d23ee1fed3bbc722e2b54
   specs:
-    middleman-livereload (3.1.0)
+    middleman-livereload (3.1.1)
       em-websocket (>= 0.2.0)
       middleman-core (>= 3.0.2)
       multi_json (~> 1.0)
@@ -30,22 +30,20 @@ GEM
     activesupport (3.2.16)
       i18n (~> 0.6, >= 0.6.4)
       multi_json (~> 1.0)
-    aws-sdk (1.32.0)
+    aws-sdk (1.33.0)
       json (~> 1.4)
       nokogiri (>= 1.4.4)
       uuidtools (~> 2.1)
     chunky_png (1.2.9)
-    coffee-filter (0.1.2)
-      coffee-script (>= 2.2.0)
-      haml (>= 3.0.18)
     coffee-script (2.2.0)
       coffee-script-source
       execjs
-    coffee-script-source (1.6.3)
+    coffee-script-source (1.7.0)
     compass (0.12.2)
       chunky_png (~> 1.2)
       fssm (>= 0.2.7)
       sass (~> 3.1)
+    docile (1.1.2)
     dotenv (0.9.0)
     em-websocket (0.5.0)
       eventmachine (>= 0.12.9)
@@ -53,7 +51,8 @@ GEM
     eventmachine (1.0.3)
     execjs (1.4.0)
       multi_json (~> 1.0)
-    favicon_maker (0.3)
+    favicon_maker (1.1.1)
+      docile (~> 1.1)
       mini_magick (~> 3.5)
     ffi (1.9.3)
     fssm (0.2.10)
@@ -69,20 +68,20 @@ GEM
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
       rb-kqueue (>= 0.2)
-    middleman (3.2.1)
+    middleman (3.2.2)
       coffee-script (~> 2.2.0)
       compass (>= 0.12.2)
       execjs (~> 1.4.0)
       haml (>= 3.1.6)
       kramdown (~> 1.2)
-      middleman-core (= 3.2.1)
+      middleman-core (= 3.2.2)
       middleman-sprockets (>= 3.1.2)
       sass (>= 3.1.20)
-      uglifier (~> 2.1.0)
-    middleman-core (3.2.1)
+      uglifier (~> 2.4.0)
+    middleman-core (3.2.2)
       activesupport (~> 3.2.6)
       bundler (~> 1.1)
-      i18n (~> 0.6.1)
+      i18n (~> 0.6.9)
       listen (~> 1.1)
       rack (>= 1.4.5)
       rack-test (~> 0.6.1)
@@ -113,7 +112,7 @@ GEM
     rb-kqueue (0.2.0)
       ffi (>= 0.5.0)
     redcarpet (3.0.0)
-    sass (3.2.13)
+    sass (3.2.14)
     smusher (0.4.9)
       httpclient (>= 2.2)
       json
@@ -134,9 +133,9 @@ GEM
       sass (>= 3.2.0)
     thor (0.18.1)
     tilt (1.4.1)
-    uglifier (2.1.2)
+    uglifier (2.4.0)
       execjs (>= 0.3.0)
-      multi_json (~> 1.0, >= 1.0.2)
+      json (>= 1.8.0)
     uuidtools (2.1.4)
     zurb-foundation (4.3.2)
       sass (>= 3.2.0)
@@ -146,7 +145,6 @@ PLATFORMS
 
 DEPENDENCIES
   aws-sdk
-  coffee-filter
   compass
   dotenv
   haml
