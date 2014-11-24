@@ -32,7 +32,10 @@ article {
   }
 }
 
-header#info,
+header img {
+  border-radius: 100%;
+}
+
 footer {
   background: $light-background;
   color: $hemingwaycafe;
