@@ -1,0 +1,50 @@
+<%= partial "nav", locals: { project: "Mostro" } %>
+
+<h1>Mostro</h1>
+
+<p>
+  Mostro was an infrastructure monitoring service that brought usability and ease of setup to a world of complex, often critical problems. From 2014 to 2015, I was leading its development team.
+</p>
+
+<p>
+  Users could get a server fully monitored within seconds, with actionable insights for services such as MySQL, PostgreSQL, Memcache etc. out of the box, and hundreds of checks and triggers already configured with sensible defaults.
+</p>
+
+<p>
+  The shell-based agent was secure, open-source, lightweight and extensible, while the text-based, server-side configuration allowed for an easy deploy accross infrastructures using tools like Ansible, Chef and Puppet. Users could easily write their own additional checks using in any language.
+</p>
+
+<figure class="figure">
+  <img src="/images/mostro/1.jpg" class="img-responsive">
+  <figcaption class="figure-caption text-center">
+    The dashboard highlighted what the issue was, how bad it was, how long it has been, and who was working on it. The app provided actionable solutions, for instance specific MySQL settings.
+  </figcaption>
+</figure>
+
+<figure class="figure">
+  <img src="/images/mostro/2.jpg" class="img-responsive">
+  <figcaption class="figure-caption text-center">
+    No need for flashy charts when everything is running smoothly. Mostro would let you know if anything went wrong.
+  </figcaption>
+</figure>
+
+<figure class="figure">
+  <img src="/images/mostro/3.jpg" class="img-responsive">
+  <figcaption class="figure-caption text-center">
+    "Alert me via Slack if the CPU on #worker servers is critical for more than 1 minute, and text the whole team if the problem persists for more than 5 minutes."
+  </figcaption>
+</figure>
+
+<figure class="figure">
+  <img src="/images/mostro/4.jpg" class="img-responsive">
+  <figcaption class="figure-caption text-center">
+  </figcaption>
+</figure>
+
+<h2>What happened?</h2>
+
+<p>
+  Mostro publicly launched around the time Docker became popular, but wasn't flexible enough to support the new challenges containers brought to the world of DevOps. In retrospect, we should have tried to focus on emerging trends, ship it sooner, learn from our market and adjust to the rapidly shifting needs of our potential customers. Instead, we built a solution for a disappearing problem. It's a classic tale of a bad market fit and a rigid solution.
+</p>
+
+<p>One lesson I learned from this experience: ship early to validate your assumptions.</p>
