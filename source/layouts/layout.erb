@@ -8,12 +8,11 @@
 
     <title><%= current_page.data.title || "Kevin Bongart" %></title>
 
-
-    <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Bitter:400|Open+Sans|Source+Sans+Pro:900" rel="stylesheet">
-
     <%= stylesheet_link_tag "site" %>
+
+    <link href="https://fonts.googleapis.com/css?family=Bitter:400|Open+Sans|Source+Sans+Pro:900" rel="stylesheet">
   </head>
+
   <body>
     <div class="container grid-lg">
       <%= yield %>
