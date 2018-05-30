@@ -14,9 +14,13 @@ activate :external_pipeline,
 
 configure :build do
   activate :gzip
-  activate :imageoptim
   activate :minify_html
   activate :minify_javascript
+
+  activate :imageoptim do |options|
+    options.manifest = true
+    options.manifest_path = './'
+  end
 end
 
 activate :s3_sync do |s3_sync|

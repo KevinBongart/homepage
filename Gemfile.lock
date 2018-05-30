@@ -1,6 +1,7 @@
 GIT
-  remote: https://github.com/plasticine/middleman-imageoptim
-  revision: a539caef0d2f9a23704ed36cf36c7945d2282c62
+  remote: https://github.com/KevinBongart/middleman-imageoptim
+  revision: 1f1ae0cfb971c73d81e47a854743f42951bd7227
+  branch: manifest_path_option
   specs:
     middleman-imageoptim (0.2.1)
       image_optim (~> 0.25.0)
