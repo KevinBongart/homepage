@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/KevinBongart/middleman-imageoptim
-  revision: 1f1ae0cfb971c73d81e47a854743f42951bd7227
+  revision: c1e562bd5adeba04a348286fd1e79f49fa233be6
   branch: manifest_path_option
   specs:
     middleman-imageoptim (0.2.1)
@@ -20,7 +20,7 @@ GEM
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
     ansi (1.5.0)
-    autoprefixer-rails (8.5.1)
+    autoprefixer-rails (8.5.2)
       execjs
     backports (3.11.3)
     builder (3.2.3)
