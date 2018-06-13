@@ -1,11 +1,11 @@
 body, p {
-  color: #5D656C;
+  color: #5d656c;
   font-family: 'Open Sans', Helvetica, Arial sans-serif;
   font-size: 18px;
 }
 
 h1, h2, h3 {
-  color: #3A4046;
+  color: #3a4046;
   font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
 }
 
@@ -14,11 +14,11 @@ h1 {
 }
 
 a, a:hover, a:active, a:focus, a:visited {
-  color: #CF1332;
+  color: #cf1332;
 }
 
 #avatar-top, #avatar-bottom {
-  border: 1px solid #5D656C;
+  border: 1px solid #5d656c;
   height: 1.5em;
   vertical-align: middle;
 }

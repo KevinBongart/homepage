@@ -32,8 +32,18 @@
   </head>
 
   <body>
-    <div class="container grid-lg">
+    <div class="container grid-lg" role="main">
       <%= yield %>
     </div>
+
+    <footer class="container grid-lg text-center" role="contentinfo">
+      <div class="divider"></div>
+      <small>
+        My avatar is from my favorite webcomic, <a href="http://www.poorlydrawnlines.com">Poorly Drawn Lines</a>, and used with permission. You should check it out!
+        <br>
+        This website was built with <a href="https://picturepan2.github.io/spectre/">Spectre.css</a> and <a href="https://middlemanapp.com">Middleman</a>. You can find the source code on <a href="https://github.com/KevinBongart/homepage">GitHub</a>.
+
+      </small>
+    </footer>
   </body>
 </html>
