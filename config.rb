@@ -6,6 +6,7 @@ end
 page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
+page '/projects/watchthis/fin.html', layout: 'watchthis/layout'
 
 activate :external_pipeline,
   name: :gulp,
