@@ -3,9 +3,9 @@
 ## Setup
 
 ```shell
-nodenv install
 rbenv install
 bundle install
+nodenv install
 npm install -g gulp
 middleman serve
 ```
