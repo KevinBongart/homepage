@@ -10,7 +10,8 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 70px;
+  font-size: 3em;
+  line-height: 1em;
 }
 
 a, a:hover, a:active, a:focus, a:visited {
@@ -30,4 +31,10 @@ a, a:hover, a:active, a:focus, a:visited {
 
 .figure {
   margin-bottom: 2em;
+}
+
+#hireme {
+  background-color: aliceblue;
+  padding: 1em 1.5em;
+  margin-bottom: 1rem;
 }
